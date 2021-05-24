@@ -1,1 +1,44 @@
-Hello World
+<html id="html">
+    <link rel="stylesheet" href="index.css">
+<head><h1 id="title">Le meilleur questionnaire</h1></head>
+<body>
+    <div class="questionaire">
+    <form action="index.php" name="my_form" method="POST">
+        <p class="question">Q1: Mon questionnaire est t-il le meilleur?:</p> <br> 
+        <input type="radio" name="Q1" value="Oui">Oui<br>
+        <input type="radio" name="Q1" value="Biensur">Bien sur<br>
+        <p class="question">Q2: c'est quoi vos trois chose preferer?</p>
+        <div class="answers">
+        <input  type="textbox" name="Q2"><br>
+        </div>
+        <p class="question">Q3: Quelle sport regarder-vous le plus?</p>
+        <select name="sport">
+            <div class="answers">
+            <option value="hockey" selected="selected"> Hockey</option>
+            <option value="baseball"> Baseball</option>
+            <option value="baseball"> Football</option>
+        </div>
+        </select>
+        <br>
+        <p class="question">Q4: Chocolat ou Friandise?</p><br> 
+        <div class="answers">
+            <input type="radio" name="Q1" value="Chocolat">Chocolat<br>
+            <input type="radio" name="Q1" value="Friandise">Friandise<br>
+        </div>
+        <p class="question">Q5: Quelle sont des chiffres que vous aimer parmit la liste?</p><br>
+        <div class="answers">
+        <input type="checkbox" name="1" value="1">1<br>
+        <input type="checkbox" name="1" value="1">7<br>
+        <input type="checkbox" name="1" value="1">17<br>
+        <input type="checkbox" name="1" value="1">77<br>
+    </div>
+        <p class="question">Q6: Avez-vous des commentaire?</p>
+        <div class="answers">
+        <input type="textbox" name="Q3"><br>
+        <input type="submit" name="submit"></input>
+        </div>
+        </form>
+</div>
+</body>
+<footer><p>made by Gabriel Beaupre-Jacques</p></footer>
+</html>
